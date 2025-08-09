@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A aventura até o cavalheiro</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você acorda em um reino chamado hallownest, que antes foi muito feliz, mas agora está em ruínas, pois foi
+                dominado pela Radiância, um ser celestial invasor de sonhos. Seu dever é matar um dos seus controlados,
+                o FALSO CAVALEIRO, que está escondido em uma caverna profunda. Qual será seu primeiro passo?</p>
+                <button class="btn-proximo" data-proximo="1">buscar recurços de preparação</button>
+                <button class="btn-proximo" data-proximo="2">entrar na caverna</button>
+
+        </div>
+        <div class="passo" id="passo-1">
+            <p>você esta preparado e agora entra na caverna, decide seguir o caminho mas seguro ao invés do buraco sem fim.
+Então encontra a caverna do falso caveleiro e vai mata-lo.</p>
+            <p>após mata-lo, você vai até a superfície e os moradores antes dominados pela radiancia agora te agradecem.</p>
+                <button class="btn-proximo" data-proximo="3">festejar com eles</button>
+                <button class="btn-proximo" data-proximo="4">ir embora</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="img/cenario-passo-2.png" alt="">
+            <p>se depara com um buraco imenso com vesibilidade zero do fundo.</p>
+                <button class="btn-proximo" data-proximo="5">pular no buraco</button>
+                <button class="btn-proximo" data-proximo="1">voltar e se preparar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>você festeja com eles e vai embora feliz por ter salvado o reino de hollownest.</p>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>você então segue seu caminho sem olhar para traz em busca de uma nova aventura.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>você cai em uma fonte termal de água cristalina e encontra um baú com amuletos e um ferrão(arma do jogo) que são muito poderosos.
+Vai a procura do falso cavaleiro para mata-lo.</p>
+            <p>após mata-lo, você vai até a superfície e os moradores antes dominados pela radiância agora te agradecem e te entregam a coroa do antigo rei, pedindo para você ficar.</p>
+                <button class="btn-proximo" data-proximo="6">aceitar a propósta de reinado</button>
+                <button class="btn-proximo" data-proximo="4">recusar a proposta e seguir seu caminho</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>você se torna o rei de hallownest, com um reinado próspero e amado.</p>
+        </div>
+    </main>
+    <script src="script.js"> </script>
+</body>
+
+</html>
